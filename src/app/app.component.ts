@@ -7,7 +7,7 @@ import { User } from './address-card/user.model';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  title = 'Angular';
+  title='User';
   inputText: string= '';
   user: User;
   constructor(){
