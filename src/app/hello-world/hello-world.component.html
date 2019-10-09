@@ -1,0 +1,12 @@
+
+<div class="hi">
+  User Name: <input type="text" [(ngModel)]="gitUserName">
+<button style="color:blue" (click)="search()"> Search </button>
+</div>
+<div *ngIf="response" style="border:2px balck solid">
+<p> LogIn: {{response.login}}</p>
+<p> Number of repos: {{response.public_repos}}</p>
+<p> Number of gists: {{response.public_gists}}</p>
+<p> Number of followers: {{response.followers}}</p>
+
+</div>

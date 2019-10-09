@@ -1,0 +1,9 @@
+.hi{
+  margin: 40px;
+  border: 2px red solid;
+  padding: 10px;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 16px;
+  background-color:black ;
+  color:white;
+}
