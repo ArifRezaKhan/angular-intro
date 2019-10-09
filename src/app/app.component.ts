@@ -8,7 +8,7 @@ import { User } from './address-card/user.model';
 })
 export class AppComponent  {
   title = 'Angular';
-  inputText: string= 'Response(y/n)';
+  inputText: string= '';
   user: User;
   constructor(){
     this.user= new User();
